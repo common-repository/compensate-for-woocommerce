@@ -1,0 +1,73 @@
+.compensate-input-wrapper {
+  .input-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkbox {
+    display: block;
+    position: relative;
+    padding-left: 21px;
+    cursor: pointer;
+    font-size: 10px;
+    user-select: none;
+
+    /* Create a custom checkbox */
+    .checkmark {
+      position: absolute;
+      top: 49%;
+      left: 0;
+      height: 15px;
+      width: 15px;
+      border: 1px solid $color-primary;
+      background-color: $color-white;
+      border-radius: 1px;
+      box-sizing: border-box;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      transform: translateY(-50%);
+
+      /* Style the checkmark/indicator */
+      &:after {
+        content: "";
+        position: absolute;
+        display: none;
+
+        background-image: url("../admin/assets/images/icon-check-mark.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        width: 7.5px;
+        height: 6px;
+      }
+    }
+  }
+
+  /* Label on the left */
+  .checkbox.reversed {
+
+    padding-left: 0;
+    padding-right: 25px;
+
+    .checkmark {
+      left: unset;
+      right: 0;
+    }
+  }
+
+  /* Error style */
+  .input-checkbox.error ~ span.checkmark {
+    border: 1px solid $color-error !important;
+  }
+
+  /* Show the checkmark when checked */
+  .checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+}

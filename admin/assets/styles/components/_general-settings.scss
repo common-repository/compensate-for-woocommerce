@@ -1,0 +1,230 @@
+/*----------------------------------------------------*/
+/* Settings */
+/*----------------------------------------------------*/
+.compensate-settings {
+
+  font-family: $font-compensate;
+
+  /*----------------------------------------------------*/
+  /* General Settings */
+  /*----------------------------------------------------*/
+
+  .header {
+    background-color: $color-background;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    margin-bottom: 18px;
+  }
+
+  .content {
+    padding: 25px 46px;
+    background-color: $color-background;
+
+    @include respond(phone) {
+      padding: 25px 15px;
+    }
+  }
+
+  .general-settings-form {
+    max-width: 757px;
+  }
+
+  .sustainability-statement-section {
+
+    &__leading-text {
+      margin-bottom: 30px;
+    }
+
+    .statement-section {
+      margin-bottom: 20px;
+
+      h3 {
+        margin-bottom: 0;
+        font-size: 13px;
+      }
+    }
+  }
+
+
+  .settings-section {
+    padding: 35px 0;
+    position: relative;
+
+    &:first-of-type {
+      padding-top: 0;
+    }
+
+    &__heading {
+      font-size: 20px;
+      color: $color-primary;
+      font-weight: $font-bold;
+      margin-bottom: 26px;
+    }
+
+    &__lead-text {
+      margin-bottom: 30px;
+    }
+
+    &__content {
+
+      padding-left: 30px;
+
+      @include respond(phone) {
+        padding-left: 0;
+      }
+
+      .compensate-form-row > label {
+        font-weight: $font-bold;
+        margin-bottom: 16px;
+        display: block;
+      }
+
+      .compensate-form-row#store_country_field {
+        margin-bottom: 50px;
+      }
+    }
+
+    &:after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: $color-primary;
+
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  /*----------------------------------------------------*/
+  /* Opt out/in */
+  /*----------------------------------------------------*/
+  .opt-in-section {
+    display: none;
+  }
+
+  /*----------------------------------------------------*/
+  /* Contact */
+  /*----------------------------------------------------*/
+  .contact {
+    padding: 15px 26px;
+    margin-top: 50px;
+    border: 1px solid $color-primary;
+    max-width: 512px;
+
+    p {
+      font-size: 11px;
+    }
+
+    h3.contact__heading {
+      font-size: 11.5px;
+    }
+
+    span {
+      color: $color-primary;
+    }
+  }
+
+  .compensate-button {
+    margin-top: 30px;
+  }
+
+  /*----------------------------------------------------*/
+  /* Modal */
+  /*----------------------------------------------------*/
+  .success-modal {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin-left: -20px;
+
+
+    &__backdrop {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+
+      background-color: #1B1B1B;
+      opacity: 0.6;
+    }
+
+    &__banner {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    &__heading {
+      font-size: 50px;
+
+      @include respond(phone) {
+        font-size: 30px;
+      }
+    }
+
+    &__content {
+      padding: 32px 24px;
+      width: 80%;
+      max-width: 648px;
+      background-color: $color-white;
+      text-align: center;
+
+      position: absolute;
+      top: 200px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &__close-button {
+      position: absolute;
+      cursor: pointer;
+      top: 7px;
+      right: 7px;
+      background-color: rgba(123, 123, 123, 0.2);
+      width: 17px;
+      height: 17px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__contact {
+      padding: 9px 18px;
+      border: 1px solid $color-primary;
+      text-align: left;
+
+      display: flex;
+      justify-content: space-between;
+
+      @include respond(tab-port) {
+        flex-direction: column;
+      }
+
+      .text-container {
+        flex: 1;
+        margin-right: 64px;
+
+        @include respond(tab-port) {
+          margin-right: 0;
+        }
+      }
+
+      .contact-info {
+        flex: 1;
+
+        span {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}

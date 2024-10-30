@@ -1,0 +1,167 @@
+.compensate-widget {
+  /*----------------------------------------------------*/
+  /* Main */
+  /*----------------------------------------------------*/
+  position: relative;
+  font-family: $font-compensate;
+  margin: 15px 0;
+  display: inline-block;
+
+  &__main {
+    display: flex;
+
+    border: 1px solid $color-primary;
+    border-radius: 3px;
+    width: 359px;
+
+    @include respond(phone) {
+      width: 320px;
+    }
+
+    @include respond(small-phone) {
+      width: 280px;
+    }
+  }
+
+  &__text {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: $font-bold;
+    text-align: right;
+    margin-bottom: 0;
+    color: $color-black;
+  }
+
+  &__logo {
+    width: 47.5px;
+    margin-right: 12px;
+  }
+
+  &__amount {
+    color: $color-primary;
+    font-weight: $font-bold;
+    font-size: 10px;
+    display: flex;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 15px;
+  }
+
+  &__checkbox-container {
+    padding: 9px 19px 9px 11px;
+    background-color: rgba(40, 140, 150, 0.1);
+    flex: 0 0 105px;
+
+    @include respond(small-phone) {
+      padding: 9px 11px 9px 11px;
+      flex: 0 0 80px;
+    }
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__readmore {
+    cursor: pointer;
+    font-size: 10px;
+    margin: 10px 0;
+
+    display: inline-block;
+
+    img {
+      margin-right: 10px;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+
+
+  &__spinner {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid rgba($color-primary, 0.25);
+    border-top-color: $color-primary;
+    position: relative;
+    animation: loader-rotate 1s linear infinite;
+    margin: 0 auto;
+    @include loader-rotate;
+  }
+
+
+  /*----------------------------------------------------*/
+  /* Extra */
+  /*----------------------------------------------------*/
+
+  .extra {
+
+    position: absolute;
+    top: 100%;
+    width: 359px;
+    padding: 17px 15px;
+    border: 1px solid $color-primary;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    z-index: 500;
+
+    display: none;
+    background-color: white;
+
+    @include respond(phone) {
+      width: 320px;
+    }
+
+    @include respond(small-phone) {
+      width: 280px;
+    }
+
+    &__heading {
+      margin-top: 0 !important;
+      font-weight: $font-bold;
+      font-size: 23px;
+      margin-bottom: 20px;
+
+      color: $color-primary;
+
+      @include respond(small-phone) {
+        font-size: 20px;
+      }
+    }
+
+    &__image {
+      width: 141px;
+      height: 184px;
+      object-fit: cover;
+      margin-right: 14px;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      color: $color-black;
+    }
+
+    &__text {
+      font-size: 10px;
+      line-height: 14px;
+    }
+
+    &__learnmore {
+      font-size: 8px;
+      margin-bottom: 0;
+
+      margin-top: auto;
+
+      a:link, a:visited {
+        color: $color-primary;
+        text-decoration: none;
+      }
+    }
+  }
+}

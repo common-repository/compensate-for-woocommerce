@@ -1,0 +1,22 @@
+.compensate-input-wrapper {
+
+  .compensate-weight-input {
+    width: 283px;
+    display: flex;
+
+    input[type=number] {
+
+      margin-right: 12px;
+      //flex: 4;
+
+      &.error {
+        border: 1px solid $color-error;
+      }
+    }
+
+    select {
+      //flex: 1;
+    }
+  }
+
+}

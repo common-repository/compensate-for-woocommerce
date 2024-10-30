@@ -1,0 +1,504 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Compensate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-07 08:43+0000\n"
+"PO-Revision-Date: 2020-09-07 08:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.5.1"
+
+#: compensate.php:134
+msgid "Compensate requires WooCommerce in order to work."
+msgstr ""
+
+#: compensate.php:149
+msgid ""
+"Oh no, it seems Compensate isn’t yet available in your location! Supported "
+"languages are English, Swedish, Danish, German, Dutch, and Finnish. "
+"Supported currencies are EUR, USD, SEK, DKK, GBP, and CAD."
+msgstr ""
+
+#: compensate.php:164
+msgid ""
+"Oh no, it seems Compensate doesn’t yet support your language or currency! "
+"Supported languages are English, Swedish, Danish, German, Dutch, and Finnish."
+" Supported currencies are EUR, USD, SEK, DKK, GBP, and CAD."
+msgstr ""
+
+#: includes/compensate-functions.php:63
+#: admin/templates/compensate-wizard-settings.php:153
+msgid "required"
+msgstr ""
+
+#: includes/compensate-functions.php:179
+msgid "Choose an option"
+msgstr ""
+
+#: admin/AdminApiHelper.php:37 admin/AdminApiHelper.php:43
+msgid "There was an error registering to Compensate. Please try again."
+msgstr ""
+
+#: admin/AdminApiHelper.php:95
+msgid ""
+"There was an error updating merchant profile to Compensate. Please try again."
+msgstr ""
+
+#: admin/AdminApiHelper.php:125
+msgid ""
+"There was an error posting order to the compensate server. Please try again."
+msgstr ""
+
+#: admin/AdminApiHelper.php:151
+msgid "There was an error cleanup merchant profile. Please try again."
+msgstr ""
+
+#: admin/GeneralSettings.php:41 admin/GeneralSettings.php:110
+msgid "You are not allowed to be on this page"
+msgstr ""
+
+#: admin/CompensateAdmin.php:53
+msgid "Please allow us to access your store information to continue"
+msgstr ""
+
+#: admin/CompensateAdmin.php:54
+msgid "Please accept the Terms and Conditions and Privacy Policy to continue"
+msgstr ""
+
+#: admin/CompensateAdmin.php:55
+msgid "Please add your warehouse location"
+msgstr ""
+
+#: admin/CompensateAdmin.php:56
+msgid "Please add your average package weight"
+msgstr ""
+
+#: admin/CompensateAdmin.php:57
+msgid "Please add your Business ID"
+msgstr ""
+
+#: admin/CompensateAdmin.php:58
+msgid "Please add your VAT number"
+msgstr ""
+
+#: admin/CompensateAdmin.php:59
+msgid "Please add your company name"
+msgstr ""
+
+#: admin/CompensateAdmin.php:60
+msgid "Please add your company address"
+msgstr ""
+
+#: admin/CompensateAdmin.php:61
+msgid "Please add your town/city"
+msgstr ""
+
+#: admin/CompensateAdmin.php:62
+msgid "Please add your postcode/ZIP"
+msgstr ""
+
+#: admin/CompensateAdmin.php:63
+msgid "Please add your state / county / province "
+msgstr ""
+
+#: admin/CompensateAdmin.php:64
+msgid "Please add the country in which your company is registered"
+msgstr ""
+
+#: admin/CompensateAdmin.php:117
+msgid "Settings"
+msgstr ""
+
+#. Author of the plugin
+#: admin/CompensateAdmin.php:144
+msgid "Compensate"
+msgstr ""
+
+#: admin/CompensateAdmin.php:210
+msgid "Compensate (Compensate Foundation, Business ID 2914937-8)"
+msgstr ""
+
+#: public/PublicApiHelper.php:31 public/PublicApiHelper.php:37
+msgid "There was an error updating the compensate price. Please try again."
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:11
+msgid "Getting started"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:13
+msgid "Widget Set Up"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:15
+msgid "Settings adjustment"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:34
+msgid "Let’s combat climate change together!"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:36
+msgid ""
+"Thank you for being here, let’s get you started. The Compensate app will "
+"enable your customers to compensate for the climate impact of their "
+"shipments. We take no cuts from these payments and use them in full towards "
+"carbon capture."
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:37
+msgid "Climate action is just a few clicks away!"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:43
+msgid "Quick note!"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:44
+msgid ""
+"We’ll automatically match the currency and language to the ones in your "
+"store. If we don’t yet support your language or currency, we’ll set the "
+"currency to EUR and the language to English."
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:46
+msgid "Supported languages"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:47
+msgid "English, Swedish, Danish, German, Dutch, Finnish"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:50
+msgid "Supported currencies"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:51
+msgid "EUR, USD, SEK, DKK, GBP, CAD"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:59
+#: admin/templates/compensate-wizard-settings.php:213
+msgid "Continue"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:69
+msgid ""
+"To calculate the emissions, I allow Compensate to access my store "
+"information and activity data."
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:79
+msgid ""
+"I accept the <a href=\"https://compensate.com/page/woocommerce-terms-of-"
+"service\" rel=\"noopener noreferrer\" target=\"_blank\">Terms and "
+"Conditions</a> and <a href=\"https://compensate.com/page/woocommerce-privacy-"
+"policy\" rel=\"noopener noreferrer\" target=\"_blank\">Privacy Policy</a>"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:94
+#: admin/templates/compensate-wizard-settings.php:221
+#: admin/templates/compensate-wizard-settings.php:292
+#: admin/templates/compensate-settings.php:103
+msgid "Questions or issues with the setup? We’re here to help:"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:104
+msgid ""
+"Great! First, please answer these questions. They’ll help us calculate the "
+"emissions of the shipments accurately."
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:107
+msgid "Shipping Information"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:112
+#: admin/templates/compensate-settings.php:79
+msgid "From where do you ship the goods to your customer?"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:113
+msgid "Choose your warehouse location"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:119
+#: admin/templates/compensate-settings.php:84
+msgid "What is the average weight of the packages you ship?"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:120
+#: admin/templates/compensate-settings.php:85
+msgid "Add your shipping weight"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:131
+msgid "Billing information"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:136
+msgid "What is your Business ID?"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:137
+msgid "Add your Business ID"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:145
+msgid "What is your VAT number?"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:146
+msgid "Add your VAT"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:152
+msgid "Billing address"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:158
+msgid "Company name"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:166
+msgid "Country of registration"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:167
+msgid "Choose your country of registration"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:175
+msgid "Address"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:183
+msgid "State / County / Province"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:191
+msgid "Town / City"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:198
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:208
+#: admin/templates/compensate-wizard-settings.php:261
+msgid "Back"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:232
+#, php-format
+msgid ""
+"How do we calculate these emissions? Read more on the math <a href=\"%s\" "
+"rel=\"noopener noreferrer\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:238
+#: admin/templates/compensate-settings.php:41
+msgid "Sustainability Statement"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:239
+#: admin/templates/compensate-settings.php:42
+msgid ""
+"We want to ensure that the Compensate brand and the act of compensating "
+"one’s carbon footprint is represented consistently across all applications "
+"and audiences. Therefore it’s important our partners commit to the following:"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:244
+#: admin/templates/compensate-settings.php:44
+msgid "Sustainability"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:245
+#: admin/templates/compensate-settings.php:45
+msgid ""
+"Offering the Compensate plugin to our customers is not our only "
+"sustainability effort. We actively seek to lower our carbon footprint and "
+"make our operations more climate friendly in other ways as well.\n"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:249
+#: admin/templates/compensate-settings.php:49
+msgid "Communications with integrity"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:250
+#: admin/templates/compensate-settings.php:50
+msgid ""
+"We communicate about the Compensate plugin to our customers in a manner "
+"which elevates both our brand and that of Compensate. We don’t moralize, nor "
+"do we exaggerate the positive impact of our customer’s actions or that of "
+"climate compensation in general. We ensure our customers fully understand "
+"the choice they are making with the Compensate plugin. In this, Compensate’s "
+"communications kit will help us."
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:254
+#: admin/templates/compensate-settings.php:54
+msgid "Digital materials"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:255
+#: admin/templates/compensate-settings.php:55
+msgid ""
+"In keeping with Compensate’s values, we minimize the production of new "
+"material as part of the Compensate experience (printouts, documents, "
+"material, kitsch). Within reason, we direct customers to online sources and "
+"digital materials for more information."
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:266
+msgid "Accept and Continue"
+msgstr ""
+
+#: admin/templates/compensate-wizard-settings.php:276
+#, php-format
+msgid ""
+"Learn more about our mission at <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">compensate.com</a>"
+msgstr ""
+
+#: admin/templates/compensate-wizard-notice.php:2
+msgid ""
+"Welcome to Compensate! You're almost there, but we think this wizard might "
+"help you setup the plugin."
+msgstr ""
+
+#: admin/templates/compensate-wizard-notice.php:4
+msgid "Run wizard"
+msgstr ""
+
+#: admin/templates/compensate-wizard-notice.php:5
+msgid "Dismiss"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:12
+msgid "Let's combat climate change, together!"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:21
+msgid "Your changes have been saved"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:30
+msgid "There was a connectivity error. We couldn’t save your changes."
+msgstr ""
+
+#: admin/templates/compensate-settings.php:31
+msgid ""
+"Refresh and try again. If the error persist, please contact us at "
+"support@compensate.com"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:60
+msgid "Compensate default"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:61
+msgid ""
+"How your customers interact with Compensate widget. You can decide wether "
+"you want them to opt-in to the compensation or having it activated by "
+"default."
+msgstr ""
+
+#: admin/templates/compensate-settings.php:64
+msgid "Compensation default off. (Opt-in)"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:67
+msgid "Compensation default on. (Opt-out)"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:72
+msgid "Carbon Emission Calculation"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:73
+msgid ""
+"Information needed to accurately calculate the carbon emission of the "
+"shipping goods."
+msgstr ""
+
+#: admin/templates/compensate-settings.php:94
+msgid "Save"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:121
+msgid "You’re all set!"
+msgstr ""
+
+#: admin/templates/compensate-settings.php:122
+msgid ""
+"We’re excited to welcome you to the #WeCompensate-family! We can’t wait to "
+"let you know how your community’s climate impact is growing."
+msgstr ""
+
+#: admin/templates/compensate-settings.php:123
+msgid ""
+"You can come back here any time to adjust your settings or to update your "
+"information."
+msgstr ""
+
+#: admin/templates/compensate-settings.php:126
+msgid ""
+"We’d love to hear from you: Please get in touch if you have any questions or "
+"need help, or if you have any feedback for us!"
+msgstr ""
+
+#: public/templates/compensate-widget-cart.php:12
+msgid "Yes, I want to compensate the climate impact of my shipment!"
+msgstr "Ja, jeg ønsker at kompensere for klimapåvirkningen af min forsendelse!"
+
+#: public/templates/compensate-widget-cart.php:29
+msgid "What is this?"
+msgstr "Hvad er dette? "
+
+#: public/templates/compensate-widget-cart.php:35
+msgid "Join us in climate action"
+msgstr "Slut dig til vores klimaindsats"
+
+#: public/templates/compensate-widget-cart.php:38
+msgid ""
+"Compensate is a <strong>nonprofit on a mission to combat climate change."
+"</strong>"
+msgstr ""
+"Compensate er <strong>en almennyttig organisation, der ønsker at bekæmpe "
+"klimaændringer.</strong>"
+
+#: public/templates/compensate-widget-cart.php:47
+#, php-format
+msgid ""
+"Get to know us: <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">"
+"compensate.com</a>"
+msgstr ""
+"Lær os at kende: <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">compensate.com</a>"
+
+#. Name of the plugin
+msgid "Compensate for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The WooCommerce plugin for CO2 offsetting on demand – take climate action "
+"with your customers. True impact, high integrity."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.compensate.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.compensate.com/about-us"
+msgstr ""

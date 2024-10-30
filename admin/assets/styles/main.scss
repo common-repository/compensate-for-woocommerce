@@ -1,0 +1,39 @@
+@import "../../../includes/assets/styles/main";
+@import "components/wizard-settings";
+@import "components/select";
+@import "components/number-input";
+@import "components/text-input";
+@import "components/notification";
+@import "components/weight-input";
+@import "components/general-settings";
+@import "components/compensate-notice";
+
+.form-row {
+  margin-bottom: 12px;
+}
+
+.error-container {
+  margin-top: 4px;
+}
+
+label.error {
+  color: $color-error;
+  font-size: 8px;
+  line-height: 1.4;
+
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(255, 61, 0, 0.1);
+  padding: 4px;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    background-image: url("../admin/assets/images/icon-error.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

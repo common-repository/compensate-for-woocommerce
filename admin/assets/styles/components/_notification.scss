@@ -1,0 +1,55 @@
+/*----------------------------------------------------*/
+/* Notification */
+/*----------------------------------------------------*/
+.notification {
+  $self: &;
+
+  padding: 15px 19px;
+  margin: 44px 0;
+
+  display: inline-flex;
+  align-items: center;
+
+  &--success {
+    border: 1px solid $color-primary;
+  }
+
+  &--error {
+    background-color: rgba(255, 61, 0, 0.1);
+  }
+
+  &__icon {
+    display: inline-block;
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    #{ $self }--success & {
+      background-image: url("../admin/assets/images/icon-success.svg");
+    }
+
+    #{ $self }--error & {
+      background-image: url("../admin/assets/images/icon-error.svg");
+    }
+  }
+
+  &__text {
+    font-weight: $font-bold;
+    margin: 0;
+
+    #{ $self }--success & {
+      color: $color-primary;
+    }
+
+    #{ $self }--error & {
+      color: $color-error;
+    }
+  }
+
+  &__helper {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.compensate-input-wrapper {
+
+  input[type=text] {
+    width: 283px;
+    text-align: center;
+    padding: 7px 0;
+    border-radius: 0;
+    color: $color-primary;
+    border: 1px solid $color-primary;
+    background-color: $color-white;
+
+    &.error {
+      border: 1px solid $color-error;
+    }
+  }
+}
+
+
+
